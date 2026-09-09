@@ -9,7 +9,7 @@ def subtraction (num1, num2):
     print (sub)
 
 def multiplication (num1, num2):
-    multiple = num1 + num2
+    multiple = num1 * num2
     print (multiple)
 
 def division (num1, num2):
