@@ -25,26 +25,28 @@ loop = True
 while loop:
 
 
-    num1 = int(input())
-    action = input()
-    num2 = int(input())
+    num1 = input()
+    if num1.lower() == "exit" or num1.lower() == "stop":
+        loop = False
+        print("Ended")
+    else:
+        num1 = int(num1)
+        action = input()
+        num2 = int(input())
 
-    if action == '+':
-        add (num1, num2)
+        if action == '+':
+            add (num1, num2)
 
-    if action == '-':
-        subtraction (num1, num2)
+        if action == '-':
+            subtraction (num1, num2)
 
-    if action == '*':
-        multiplication (num1, num2)
+        if action == '*':
+            multiplication (num1, num2)
 
-    if action == '/':
-        division (num1, num2)
+        if action == '/':
+            division (num1, num2)
 
-    if action == '^':
-        exponent (num1, num2)
+        if action == '^':
+            exponent (num1, num2)
 
-
-
-    
 
