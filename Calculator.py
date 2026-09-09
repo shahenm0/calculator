@@ -34,7 +34,6 @@ while loop:
 
     if action == '-':
         subtraction (num1, num2)
-    print (subtraction)
 
     if action == '*':
         multiplication (num1, num2)
@@ -42,6 +41,10 @@ while loop:
     if action == '/':
         division (num1, num2)
 
-    if action == '**':
+    if action == '^':
         exponent (num1, num2)
+
+
+
+    
 
